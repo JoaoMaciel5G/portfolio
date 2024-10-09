@@ -16,10 +16,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`px-24 ${roboto.className}`}>
+    <html lang="pt-br">
+      <body className={`dark flex flex-col ${roboto.className}`}>
         <Header/>
-        {children}
+          {children}
         </body>
     </html>
   );
